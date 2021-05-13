@@ -1,0 +1,78 @@
+:root {
+  /* Aromatherapy Color Scheme */
+  --powderBlue: #BDE8E7;
+  --dewdropGreen: #DCF2DE; 
+  --lotion: #FDFDFA;
+  --seashell: #FDF1ED;
+  --piggyPink: #FDE2E6;  
+}
+
+
+/* +++++++++++++++ HTML ELEMENTS +++++++++++++++++ */
+
+body {
+  background-color: var(--lotion, white);  
+}
+
+/* ++++++++++++++++++++ ALTAR +++++++++++++++++++ */
+.altar {
+  display: flex;
+  
+  height: 1000px;
+  width: 1000px;
+}
+
+/* ++++++++++++++++++++ SPREAD +++++++++++++++++++ */
+
+.spread {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  background-image: url("../images/altarCloth.png");
+  height: 1000px;
+  width: 1000px;
+}
+
+/* ++++++++++++++++++++ CARD ++++++++++++++++++++ */
+
+.mainCardContainer { /* holds all card elements and determines size of card*/
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+}
+
+.card { /* holds front and back elements*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /* card is a 3d object, front and back.*/
+  transition: all 0.5s ease;
+  cursor:pointer;
+}
+
+.card.flip{
+  transform: rotateY(180deg);
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: var(--powderBlue, blue);
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: var(--dewdropGreen, lime);
+  transform: rotateY(180deg);
+}
+
+/* ++++++++++++++++++++ TEXT ++++++++++++++++++++ */
+
+
