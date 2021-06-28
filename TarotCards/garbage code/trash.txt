@@ -1,0 +1,80 @@
+/** REPLACE CARD IMAGE
+ * 
+ * @param {int} cardNum The number of the card, as per tarot ordering
+ * @param {string} cardName The HTML id of the card in question
+ */
+ /*function replaceCardImage(cardNum, cardName) {
+
+  switch(cardNum) {
+    case 0:
+      retrieveImage("images/MajorArcana/fool.jpg", cardName);
+      break;
+    case 1:
+      retrieveImage("images/MajorArcana/magician.jpg", cardName);
+      break;
+    case 2:
+      retrieveImage("images/MajorArcana/highPriestess.jpg", cardName);
+      break;
+    case 3:
+      retrieveImage("images/MajorArcana/empress.jpg", cardName)
+      break;
+    case 4:
+      retrieveImage("images/MajorArcana/emperor.jpg", cardName)
+      break;
+    case 5:
+      retrieveImage("images/MajorArcana/hierophant.jpg", cardName)
+      break;
+    case 6:
+      retrieveImage("images/MajorArcana/lovers.jpg", cardName);
+      break;
+    case 7:
+      retrieveImage("images/MajorArcana/chariot.jpg", cardName);
+      break;
+    case 8:
+      retrieveImage("images/MajorArcana/justice.jpg", cardName);
+      break;
+    case 9:
+      retrieveImage("images/MajorArcana/hermit.jpg", cardName)
+      break;
+    case 10:
+      retrieveImage("images/MajorArcana/wheelOfFortune.jpg", cardName)
+      break;
+    case 11:
+      retrieveImage("images/MajorArcana/strength.jpg", cardName)
+      break;
+    case 12:
+      retrieveImage("images/MajorArcana/hangedMan.jpg", cardName);
+      break;
+    case 13:
+      retrieveImage("images/MajorArcana/death.jpg", cardName);
+      break;
+    case 14:
+      retrieveImage("images/MajorArcana/temperance.jpg", cardName);
+      break;
+    case 15:
+      retrieveImage("images/MajorArcana/devil.jpg", cardName)
+      break;
+    case 16:
+      retrieveImage("images/MajorArcana/tower.jpg", cardName)
+      break;
+    case 17:
+      retrieveImage("images/MajorArcana/star.jpg", cardName)
+      break;
+    case 18:
+      retrieveImage("images/MajorArcana/moon.jpg", cardName);
+      break;
+    case 19:
+      retrieveImage("images/MajorArcana/sun.jpg", cardName);
+      break;
+    case 20:
+      retrieveImage("images/MajorArcana/judgement.jpg", cardName);
+      break;
+    case 21:
+      retrieveImage("images/MajorArcana/world.jpg", cardName)
+      break;
+    default:
+      document.getElementById(cardName).src = "images/cardBack.png";
+
+  }
+
+}*/

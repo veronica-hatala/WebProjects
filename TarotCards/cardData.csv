@@ -1,2 +1,23 @@
 ﻿number,name,filePath,description
-1,The Fool,images/MajorArcana/fool.jpg,The fool is the first card in the major arcana
+0,The Fool,images/MajorArcana/fool.jpg,The fool is the first card in the major arcana. It represents innocense and adventure
+1,The Magician,images/MajorArcana/magician.jpg,a
+2,The High Priestess,images/MajorArcana/highPriestess.jpg,b
+3,The Empress,images/MajorArcana/empress.jpg,c
+4,The Emperor,images/MajorArcana/emperor.jpg,d
+5,The Hierophant,images/MajorArcana/hierophant.jpg,e
+6,The Lovers,images/MajorArcana/lovers.jpg,f
+7,The Chariot,images/MajorArcana/chariot.jpg,g
+8,Justice,images/MajorArcana/justice.jpg,h
+9,The Hermit,images/MajorArcana/hermit.jpg,i
+10,Wheel of Fortune,images/MajorArcana/wheelOfFortune.jpg,j
+11,Strength,images/MajorArcana/strength.jpg,k
+12,The Hanged Man,images/MajorArcana/hangedMan.jpg,l
+13,Death,images/MajorArcana/death.jpg,m
+14,Temperance,images/MajorArcana/temperance.jpg,n
+15,The Devil,images/MajorArcana/devil.jpg,o
+16,The Tower,images/MajorArcana/tower.jpg,p
+17,The Star,images/MajorArcana/star.jpg,q
+18,The Moon,images/MajorArcana/moon.jpg,r
+19,The Sun,images/MajorArcana/sun.jpg,s
+20,Judgement,images/MajorArcana/judgement.jpg,t 
+21,The World,images/MajorArcana/world.jpg,u
